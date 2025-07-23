@@ -1,5 +1,5 @@
 /* Font-Family-Style */
-.noto-serif-{
+.noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -10,3 +10,61 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Nav style */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.nav-section a{
+text-decoration: none;
+margin-right: 20px;
+}
+.home{
+    font-size: 16px;
+    font-weight: bold;
+    color: #252432; 
+}
+.transfarent{
+    font-size: 16px;
+    color: #8987a1;
+}
+.cart{
+    color: #000000;
+}
+
+/* head-section-style */
+.head-section{
+display: flex;
+align-items: center;
+}
+.title-one{
+    color:#000000;
+    font-size: 65px;
+    font-weight: bold;
+}
+.title-tomato{
+    color: #E95A08;
+    font-size: 65px;
+    font-weight: bold;
+}
+.top-title{
+    margin-bottom: 15px;
+}
+.top-sub-title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23px;
+}
+
