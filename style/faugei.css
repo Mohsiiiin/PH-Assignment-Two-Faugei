@@ -18,7 +18,7 @@
 .full-section{
     max-width: 1140px;
     margin: 0 auto;
-    /* color: #F5F8FF; */
+    color: #F5F8FF;
 }
 
 /* Nav style */
@@ -191,6 +191,7 @@ margin-right: 5px;
 }
 .email{
     padding: 11px 45px;
+    font-size: 18px;
     width: 500px;
     height: 25px;
     border: none;
@@ -231,4 +232,58 @@ footer{
 }
 .icon-twitter{
     height: 30px;
+}
+
+/* media qurie small-device style */
+
+@media screen and (max-width: 600px) {
+    .nav-section{
+        padding: 0 20px;
+         align-items: center;
+    }
+    .nav-section .home, .transfarent{
+        visibility: hidden;
+    }
+
+    .cart{
+        font-size: 25px;
+        color: #252432;
+    }
+    
+    .head-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .header-title{
+        padding: 20px 30px;
+        margin-bottom: 65px;
+    }
+    .plants-detailes{
+        align-items: center;
+    }
+    .cart-section{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 15px;
+    }
+    .shop{
+        margin-top: -150px;
+        align-items: center;
+    }
+    .flower-plants{
+        flex-direction: column;
+     
+    }
+    .flower-plants li {
+        font-size: 16px;
+    padding: 10px 25px;
+    }
+    .flower-plants h3{
+        padding-left: 45px;
+        font-size: 30px;
+    }
+    .badge{
+        visibility: hidden;
+    }
+
 }
