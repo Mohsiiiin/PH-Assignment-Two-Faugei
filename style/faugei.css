@@ -18,6 +18,7 @@
 .full-section{
     max-width: 1140px;
     margin: 0 auto;
+    /* color: #F5F8FF; */
 }
 
 /* Nav style */
@@ -76,7 +77,7 @@ align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 120PX;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
 }
 
 .cart-section{
@@ -125,4 +126,44 @@ margin-right: 5px;
     width: 270px;
     height: 50px;
     padding: 15px 50px;
+}
+
+/* flower-plants style */
+
+.flower-plants{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.flower-store{
+    width: auto;
+    height: auto;
+}
+.badge{
+    width: 286px;
+    width: 286px;
+    position: relative;
+    margin-bottom: -160px;
+    margin-left: 400px;
+}
+.shop-detalis{
+  justify-content: center;
+  align-items: center;
+  
+}
+.shop-detalis h3{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.shop-detalis li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    padding: 10px 0;
 }
