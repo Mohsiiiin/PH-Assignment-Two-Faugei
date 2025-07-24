@@ -167,3 +167,37 @@ margin-right: 5px;
     font-size: 22px;
     padding: 10px 0;
 }
+
+.mail-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 120px;
+}
+
+.input-detalis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: 35px;
+}
+.email{
+    padding: 11px 45px;
+    width: 500px;
+    height: 25px;
+    border: none;
+}
+.button{
+    padding: 16px 45px;
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    margin-left: -3.8px;
+}
